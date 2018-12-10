@@ -16,7 +16,7 @@ export default class More extends Component{
           </tr>
           <tr>
             <th>URL</th>
-            <td><a href={this.props.location.state.url}>{this.props.location.state.url}</a></td>
+            <td><a href={this.props.location.state.url} target="_blank">{this.props.location.state.url}</a></td>
           </tr>
           <tr>
             <th>Category</th>
