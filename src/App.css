@@ -1,0 +1,163 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*My Code*/
+.heading img{
+  width: 150px;
+  height: 150px;
+}
+.heading h1{
+  font-family: 'Lobster', cursive;
+  font-size: 90px;
+  margin-top: 20px;
+}
+.main{
+  margin-top: 40px;
+}
+.buttons{
+  margin-top: 42px;
+  padding-left: 113px;
+}
+.button{
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #000;
+  font-weight: bold;
+}
+.buttons  a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+.active{
+  color: #fff;
+  background-color: black;
+}
+.active:hover{
+  color: #fff !important;
+}
+.card-text{
+  margin-bottom: 20px;
+}
+.pointer {
+  cursor: pointer;
+}
+.card{
+  margin-bottom: 10px;
+}
+table{
+  margin: 100px 255px;
+}
+td {
+  border: 1px solid black;
+  line-height: 25px;
+}
+th{
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+.far{
+  margin: 10px 10px 10px 10px;
+}
